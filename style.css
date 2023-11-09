@@ -19,7 +19,7 @@ body{
     color: #fff;
     width: 500px;
 }
-input{
+.num{
     padding: 10px;
     border: none;
     outline: none;

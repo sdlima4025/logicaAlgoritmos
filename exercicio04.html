@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GN | 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>EXERCÍCIO #04</h1>
+        <h2>Aluno: sdlima</h2>
+    </div>
+    <div class="box">
+        <p>Leia 2 números. Efetue as 4 operações matemáticas e mostre os resultados.</p>
+        <input class="num" id="value1" type="number" placeholder="Digite numero 1!"><br><br>
+        <input class="num" id="value2" type="number" placeholder="Digite numero 2!"><br><br>
+
+        <input type="radio" id="adicao" name="operation" value="adicao">
+        <label for="adicao">Adição</label><br><br>
+
+        <input type="radio" id="subtracao" name="operation" value="subtracao">
+        <label for="subtracao">subtração</label><br><br>
+
+        <input type="radio" id="multiplicacao" name="operation" value="multiplicacao">
+        <label for="multiplicacao">Multiplicação</label><br><br>
+
+        <input type="radio" id="divisao" name="operation" value="divisao">
+        <label for="divisao">Divisão</label><br><br>
+        <button onclick="calcular()">Enviar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

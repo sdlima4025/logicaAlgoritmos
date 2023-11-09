@@ -27,27 +27,36 @@
 
 //exercicio 04
 
-function calcular() {
-    const a = parseInt(document.querySelector('#value1').value);
-    const b = parseInt(document.querySelector('#value2').value);
+// function calcular() {
+//     const a = parseInt(document.querySelector('#value1').value);
+//     const b = parseInt(document.querySelector('#value2').value);
     
-    const selectOperation = document.querySelector('input[name="operation"]:checked').value;
-    var nameOperation, calculo;
-    if(selectOperation == 'adicao') {
-        nameOperation = 'Adição';
-        calculo = "A Adição dos números é  = "  + (a + b);
-    }
-    if(selectOperation == 'subtracao') {
-        nameOperation = 'subtração';
-        calculo = "A Subtração dos números é  = " + (a - b);
-    }
-    if(selectOperation == 'multiplicacao') {
-        nameOperation = 'Multiplicação';
-        calculo = "A Multiplicação dos números é  = " + (a * b);
-    }
-    if(selectOperation == 'divisao') {
-        nameOperation = 'Divisão';
-        calculo = "A divisão dos números é  = " + (a / b);
-    }
-    alert(calculo);
+//     const selectOperation = document.querySelector('input[name="operation"]:checked').value;
+//     var nameOperation, calculo;
+//     if(selectOperation == 'adicao') {
+//         nameOperation = 'Adição';
+//         calculo = "A Adição dos números é  = "  + (a + b);
+//     }
+//     if(selectOperation == 'subtracao') {
+//         nameOperation = 'subtração';
+//         calculo = "A Subtração dos números é  = " + (a - b);
+//     }
+//     if(selectOperation == 'multiplicacao') {
+//         nameOperation = 'Multiplicação';
+//         calculo = "A Multiplicação dos números é  = " + (a * b);
+//     }
+//     if(selectOperation == 'divisao') {
+//         nameOperation = 'Divisão';
+//         calculo = "A divisão dos números é  = " + (a / b);
+//     }
+//     alert(calculo);
+// }
+
+// exercicio #05
+
+function calculo() {
+    var temp = document.querySelector('#temperatura').value;
+    var result = (temp * 1.8) + 32;
+    var convercao = result.toFixed(2)
+    alert ('Fahrenheit: ' + convercao);
 }
